@@ -20,7 +20,7 @@ public class Navigation {
 
 	// Go back to Home Page
 	driver.navigate().back();
-	driver.wait(50);
+	
 	// Go forward to Registration page
 	driver.navigate().forward();
 
