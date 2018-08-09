@@ -20,6 +20,7 @@ public class ConfirmationAlert {
 	((JavascriptExecutor) driver).executeScript("arguments[0].click()", element);
 
 	Alert promptAlert  = driver.switchTo().alert();
+	
 	String alertText = promptAlert .getText();
 	System.out.println("Alert text is " + alertText);
 	//Send some text to the alert
